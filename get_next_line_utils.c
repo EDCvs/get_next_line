@@ -6,7 +6,7 @@
 /*   By: ichimvis <ichimvis@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 10:30:54 by ichimvis          #+#    #+#             */
-/*   Updated: 2026/11/25 13:41:54 by ichimvis         ###   ########.fr       */
+/*   Updated: 2026/11/25 15:10:50 by ichimvis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void ft_bzero(void *s, size_t n)
         i++;
     }
 }
-void ft_calloc(size_t nmemb, size_t size)
+void *ft_calloc(size_t nmemb, size_t size)
 {
     char *res;
 

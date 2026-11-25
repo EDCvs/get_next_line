@@ -6,7 +6,7 @@
 /*   By: ichimvis <ichimvis@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/17 13:14:23 by ichimvis          #+#    #+#             */
-/*   Updated: 2026/11/25 13:35:01 by ichimvis         ###   ########.fr       */
+/*   Updated: 2026/11/25 15:10:55 by ichimvis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,6 @@ size_t	ft_strlen(const char *s);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strjoin(char *s1, const char *s2);
 void ft_bzero(void *s, size_t n);
-void ft_calloc(size_t nmemb, size_t size_t);
+void *ft_calloc(size_t nmemb, size_t size_t);
 
 #endif
